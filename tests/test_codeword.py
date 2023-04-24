@@ -1,5 +1,4 @@
 from lib.check_codework import *
-
 def test_codeword1():
     result = check_codeword("horse")
     assert result == "Correct! Come in."
